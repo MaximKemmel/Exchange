@@ -16,7 +16,7 @@ const Start = () => {
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
         literature from 45 BC
       </div>
-      <button type="button" onClick={() => navigate("/home")}>
+      <button className="start_button" type="button" onClick={() => navigate("/home")}>
         Начать
       </button>
     </div>

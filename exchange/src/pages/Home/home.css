@@ -92,6 +92,12 @@
   justify-content: space-between;
 }
 
+.cards .triangle {
+  width: 20px;
+  height: auto;
+  align-self: flex-end;
+}
+
 .cards .card {
   display: flex;
   flex-direction: column;
@@ -108,13 +114,44 @@
 }
 
 .cards .card .header_info {
-  height: 53px;
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .cards .card .header_info img {
-  margin-left: 10px;
   width: 48px;
   height: 48px;
+}
+
+.cards .card .header_info .more_info {
+  height: 53px;
+  width: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff0d;
+}
+
+.cards .card.active .header_info .more_info {
+  border: 1px solid #ffffff1a;
+}
+
+.cards .card .header_info .more_info .end {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7b778a;
+}
+
+.cards .card .header_info .more_info .date {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .cards .card .count {
@@ -131,4 +168,91 @@
   font-size: 14px;
   font-weight: 400;
   color: #7b778a;
+}
+
+.currencies {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.currencies .currency {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.currencies .currency .currency_count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.currencies .currency .currency_count img {
+  height: 32px;
+  width: 32px;
+}
+
+.currencies .currency .currency_count .count {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.currencies .currency .currency_name {
+  font-size: 32px;
+  font-weight: 400;
+  color: #3e37ff;
+}
+
+.buy_button {
+  width: 382px;
+  height: 60px;
+  background-color: #3e37ff;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navigation .item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff0d;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.navigation .item.active {
+  background-color: #ffffff;
+  width: 142px;
+}
+
+.navigation .item.active .label {
+  display: flex;
+}
+
+.navigation .item img {
+  width: 20px;
+  height: auto;
+}
+
+.navigation .item .label {
+  display: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111015;
 }

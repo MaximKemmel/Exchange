@@ -53,7 +53,7 @@ img {
   word-wrap: break-word;
 }
 
-button {
+.start_button {
   margin-top: 32px;
   width: 382px;
   height: 60px;
