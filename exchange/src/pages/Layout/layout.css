@@ -20,9 +20,13 @@
 
 .navigation {
   height: 50px;
-  display: flex;
+  display: none;
   gap: 10px;
   align-items: center;
+}
+
+.navigation.active {
+  display: flex;
 }
 
 .navigation .item {

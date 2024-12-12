@@ -25,7 +25,7 @@ const Layout = () => {
   return (
     <div className={`wrapper ${activeNav == 2 ? "without_background" : null}`}>
       {parts[activeNav]}
-      <div className="navigation">
+      <div className="navigation" id="navigation">
         <div className={`item ${activeNav === 0 ? "active" : null}`} onClick={() => setActiveNav(0)}>
           <img src={activeNav == 0 ? HomeImage : HomeImageDisabled} alt="" />
           <div className="label">Home</div>

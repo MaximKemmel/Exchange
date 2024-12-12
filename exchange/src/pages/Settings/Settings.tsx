@@ -38,6 +38,17 @@ const Settings = () => {
     }
   }, [searchedValue]);
 
+  useEffect(() => {
+    var navigation = window.document.getElementById("navigation");
+    if (navigation) {
+      if (isLanguagesActive) {
+        navigation.classList.remove("active");
+      } else {
+        navigation.classList.add("active");
+      }
+    }
+  }, [isLanguagesActive]);
+
   return (
     <div className="container">
       <div
