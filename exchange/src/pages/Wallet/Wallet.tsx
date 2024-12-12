@@ -4,7 +4,7 @@ import "./wallet.css";
 const Wallet = () => {
   return (
     <div className="container">
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -17,7 +17,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -30,7 +30,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -43,7 +43,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -56,7 +56,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -69,7 +69,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -82,7 +82,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -95,7 +95,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -108,7 +108,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -121,7 +121,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -134,7 +134,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">
@@ -147,7 +147,7 @@ const Wallet = () => {
           <div className="date">15.10.24</div>
         </div>
       </div>
-      <div className="card">
+      <div className="wallet_card">
         <div className="main_info">
           <img src={EtheriumImage} alt="" />
           <div className="info">

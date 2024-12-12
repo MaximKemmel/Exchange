@@ -4,7 +4,7 @@ import "./work.css";
 const Work = () => {
   return (
     <div className="container">
-      <img src={BlockchainImage} alt="" />
+      <img className="image" src={BlockchainImage} alt="" />
     </div>
   );
 };

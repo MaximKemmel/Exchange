@@ -9,7 +9,7 @@
   overflow-y: auto;
 }
 
-.card {
+.wallet_card {
   height: 80px;
   width: 100%;
   display: flex;
@@ -20,49 +20,49 @@
   padding: 15px;
 }
 
-.card .main_info {
+.wallet_card .main_info {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.card .main_info img {
+.wallet_card .main_info img {
   height: 50px;
   width: auto;
 }
 
-.card .main_info .info {
+.wallet_card .main_info .info {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.card .main_info .info .count {
+.wallet_card .main_info .info .count {
   font-size: 18px;
   font-weight: 600;
   color: #ffffff;
 }
 
-.card .main_info .info .currency {
+.wallet_card .main_info .info .currency {
   font-size: 14px;
   font-weight: 400;
   color: #7b778a;
 }
 
-.card .date_info {
+.wallet_card .date_info {
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: end;
 }
 
-.card .date_info .end {
+.wallet_card .date_info .end {
   font-size: 14px;
   font-weight: 400;
   color: #7b778a;
 }
 
-.card .date_info .date {
+.wallet_card .date_info .date {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
