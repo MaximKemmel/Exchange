@@ -1,0 +1,30 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.center_circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 250px;
+  background: radial-gradient(#3e37ff56, #11101596);
+  filter: blur(35px);
+  position: absolute;
+  z-index: 0;
+}
+
+img {
+  width: 382px;
+  height: 382px;
+  z-index: 1;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
