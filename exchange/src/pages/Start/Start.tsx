@@ -7,7 +7,7 @@ const Start = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="wrapper">
+    <div className="start_wrapper">
       <div className="background">
         <div className="center_circle" />
         <img src={BackgroundImage} alt="" />

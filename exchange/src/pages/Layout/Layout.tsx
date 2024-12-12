@@ -15,10 +15,12 @@ import "./layout.css";
 import Home from "../Home/Home";
 import Wallet from "../Wallet/Wallet";
 import Work from "../Work/Work";
+import Ico from "../Ico/Ico";
+import Settings from "../Settings/Settings";
 
 const Layout = () => {
   const [activeNav, setActiveNav] = useState(0);
-  const parts = [<Home />, <Wallet />, <Work />] as JSX.Element[];
+  const parts = [<Home />, <Wallet />, <Work />, <Ico />, <Settings />] as JSX.Element[];
 
   return (
     <div className={`wrapper ${activeNav == 2 ? "without_background" : null}`}>

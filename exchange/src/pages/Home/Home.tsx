@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <div className="cards">
-        <div className={`card container_block ${activeCard === 0 ? "active" : null}`} onClick={() => setActiveCard(0)}>
+        <div className={`card container_block ${activeCard === 0 ? "active" : ""}`} onClick={() => setActiveCard(0)}>
           <div className="header_info">
             <img src={EtheriumImage} alt="" />
             <div className="more_info">
@@ -39,7 +39,7 @@ const Home = () => {
           <div className="currency">Etherium</div>
         </div>
         <img className="triangle" src={TriangleImage} alt="" />
-        <div className={`card container_block ${activeCard === 1 ? "active" : null}`} onClick={() => setActiveCard(1)}>
+        <div className={`card container_block ${activeCard === 1 ? "active" : ""}`} onClick={() => setActiveCard(1)}>
           <div className="header_info">
             <img src={EtheriumImage} alt="" />
             <div className="more_info">
