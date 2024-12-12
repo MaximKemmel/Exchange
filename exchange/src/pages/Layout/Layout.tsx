@@ -21,7 +21,7 @@ const Layout = () => {
   const parts = [<Home />, <Wallet />, <Work />] as JSX.Element[];
 
   return (
-    <div className="wrapper">
+    <div className={`wrapper ${activeNav == 2 ? "without_background" : null}`}>
       {parts[activeNav]}
       <div className="navigation">
         <div className={`item ${activeNav === 0 ? "active" : null}`} onClick={() => setActiveNav(0)}>
