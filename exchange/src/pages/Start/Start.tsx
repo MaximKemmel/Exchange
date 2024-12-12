@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+
 import BackgroundImage from "../../assets/start_image.png";
 import "./start.css";
 
