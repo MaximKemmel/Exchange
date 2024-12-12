@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import BlockchainImage from "../../assets/blockchain.png";
 import CopyImage from "../../assets/copy.png";
 import "./work.css";
 
 const Work = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container">
       <div className="work_background">
@@ -19,7 +22,7 @@ const Work = () => {
         yg25yug3yu2gt3ool
         <img src={CopyImage} alt="" />
       </div>
-      <button className="statistic_button" type="button">
+      <button className="statistic_button" type="button" onClick={() => navigate("/statistic")}>
         Statistic
       </button>
     </div>
