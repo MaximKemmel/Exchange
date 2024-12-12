@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import NotificationsImage from "../../assets/notification.png";
 import USDTImage from "../../assets/ic_usdt.png";
@@ -8,6 +9,7 @@ import TriangleImage from "../../assets/triangle.png";
 import "./home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
   const [activeCard, setActiveCard] = useState(0);
 
   return (
@@ -17,7 +19,7 @@ const Home = () => {
           <img src={USDTImage} alt="" />
           <div className="count">0.001916894</div>
         </div>
-        <div className="container_block notifications">
+        <div className="container_block notifications" onClick={() => navigate("/notifications")}>
           <div className="icon">
             <img src={NotificationsImage} alt="" />
             <div className="indicator" />

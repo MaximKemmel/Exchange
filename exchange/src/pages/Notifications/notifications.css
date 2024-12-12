@@ -1,0 +1,105 @@
+.notifications_wrapper {
+  padding: 20px;
+  padding-bottom: 0px;
+  width: 100wv;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.notifications_container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.day_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.day_container .day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ffffff1a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.day_container .notifications_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.day_container .notifications_list .notification {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffffff0d;
+  border-radius: 20px;
+}
+
+.day_container .notifications_list .notification .notification_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day_container .notifications_list .notification .notification_header .icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.day_container .notifications_list .notification .notification_header .time {
+  height: 40px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff0d;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.day_container .notifications_list .notification .notification_title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.day_container .notifications_list .notification .notification_description {
+  color: #7b778a;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.day_container .notifications_list .notification .more_info {
+  color: #3e37ff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  width: max-content;
+  border-bottom: 1px solid #3e37ff;
+}
