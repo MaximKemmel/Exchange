@@ -39,6 +39,12 @@
   border-radius: 10px;
 }
 
+.notifications {
+  width: 50px;
+  padding: 0;
+  justify-content: center;
+}
+
 .usdt_count {
   flex-grow: 1;
 }
